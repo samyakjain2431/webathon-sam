@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'   
 import './App.css'
 import Hero from './Components/Hero'
 import About from './Components/About'
@@ -10,6 +10,7 @@ export default function App() {
   return (
     <div>
       <Navbar/>
+      
       <Hero/>
       <About/>
       <Testimonials/>
